@@ -1,0 +1,33 @@
+.footer {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    position: relative;
+    bottom: 0;
+}
+
+.footer__text {
+    color: rgba(0, 185, 129, 1);
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    animation: toogle 2.5s ease-in infinite;
+}
+
+@keyframes toogle {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

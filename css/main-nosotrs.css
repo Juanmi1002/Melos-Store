@@ -1,0 +1,30 @@
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.container__information {
+    background-color: #fff;
+    border: solid 1px rgba(138, 138, 138, 0.3);
+    padding: 1.5em 2em;
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+.container__information:last-child {
+    margin-bottom: 0;
+}
+
+.container__information__title {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+}
+
+.container__information__text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}

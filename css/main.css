@@ -1,0 +1,23 @@
+.main {
+    margin-top: 4em;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__title {
+    margin: 0;
+    font-family: "Baskervville", serif;
+    color: rgba(114, 114, 114, 1);
+    font-size: 75px;
+    font-weight: 200;
+    margin-left: 3em;
+}
+
+.main__img {
+    display: block;
+    transform: translateX(100px);
+}
